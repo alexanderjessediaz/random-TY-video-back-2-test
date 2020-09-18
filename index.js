@@ -8,7 +8,6 @@ const cookieParser = require('cookie-parser')
 
 const jwt = require('jsonwebtoken')
 
-// const axios = require('axios')
 
 require('dotenv').config()
 
@@ -24,6 +23,8 @@ app.set('view engine', 'ejs')
 app.set('views', __dirname)
 
 app.use(cookieParser())
+
+
 
 
 
